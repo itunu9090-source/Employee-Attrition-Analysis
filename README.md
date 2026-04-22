@@ -193,7 +193,7 @@ Most days, moods, performance, even effort - these often collapse into a solitar
 
 Out of work? Reasons differ, but true cause rarely fits a box. Upward moves become mere digits - equal on paper, unequal in life. Appearances shift when you look close. Hidden layers sit beneath what seems obvious.
 
-### Conclusion
+### Conclusion:
 
 Heavy workloads hit harder when wages seem small. When promotions stop coming, morale takes a drop. As bonuses get smaller, so does motivation. Without knowing what comes next, effort grinds down.
 
