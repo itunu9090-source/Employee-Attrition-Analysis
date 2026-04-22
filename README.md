@@ -27,29 +27,29 @@ From the on set data preparation, i performed the following;
 
 ### Explanatory Data Analysis:
 The Employee attrition data to answer the following questions, such as;
-•	What is the overall attrition rate?
-•	Which departments have the highest attrition?
-•	Which job roles are most affected by attrition?
-•	Does attrition vary by gender or marital status?
-•	Are employees with low satisfaction more likely to leave?
-•	What is the average tenure of employees who leave vs stay?
-•	Does salary level influence attrition?
-•	Are employees with more projects more likely to leave (burnout risk)?
-•	Performance Vs Satisfaction
-•	How does salary vary across departments and job roles?
-•	Is there a gender pay gap?
-•	Do higher salary grades correlate with lower attrition?
-•	Are high-performing employees being paid competitively?
-•	Training vs Attrition
-•	Is compensation aligned with tenure and promotions?
-•	Do employees with more projects perform better or worse?
-•	Is there a link between working hours and performance?
-•	Are promoted employees actually high performers?
-•	Does training completion reduce attrition?
-•	How many employees receive promotions?
-•	promotion vs attrition
-•	Age distribution vs attrition (using date_of_birth)
-•	What are the top 5 drivers of attrition?
+ - What is the overall attrition rate?
+ - Which departments have the highest attrition?
+ - Which job roles are most affected by attrition?
+ - Does attrition vary by gender or marital status?
+ - Are employees with low satisfaction more likely to leave?
+ - What is the average tenure of employees who leave vs stay?
+ -	Does salary level influence attrition?
+ -	Are employees with more projects more likely to leave (burnout risk)?
+ -	Performance Vs Satisfaction
+ -	How does salary vary across departments and job roles?
+ -	Is there a gender pay gap?
+ -	Do higher salary grades correlate with lower attrition?
+ -	Are high-performing employees being paid competitively?
+ -	Training vs AttritioN
+ -	Is compensation aligned with tenure and promotions?
+ -	Do employees with more projects perform better or worse?
+ -	Is there a link between working hours and performance?
+ -	Are promoted employees actually high performers?
+ -	Does training completion reduce attrition?
+ -	How many employees receive promotions?
+ -	promotion vs attrition
+ -	Age distribution vs attrition (using date_of_birth)
+ -	What are the top 5 drivers of attrition?
 
 ### Data Analysis:
 ``` SQL
@@ -145,22 +145,61 @@ ORDER BY Left_Count DESC
 ```
 ### Results/ Findings:
 The analysis outcomes are summarized as following 
-•	The total employees were 200, Left_Employee were 27, and Attrition rate was 13.5
-•	Logisitics Department have the hightest numbers of Attrition, Followed by Administration,and Quality.
-•	Warehouse,logistics are most affected
-•	Attrition vary by gender cos Male attrition more than female, and male divorcee left the most.
-•	Employees with low satisfaction are more likely to leave.
-•	Employees who leave have a shorter tenure on average than those who stay.
-•	Employees with lower salary grades are more likely to leave than those with higher salary grades.
-•	No, they aint likely to leave i.e number of project does not increase attrition.
-•	Number of Performance and Satisfaction have a positive relationship.
-•	Director of engineering and Marketing have the highest avg salary.
-•	there is a gender pay gap because people who makes their gender confidential earns more.
-•	High-performing employees being paid competitively.
-•	People that have Completed training had more attrition.
-•	Employees with more projects perform better. And
-   Top 5 drivers of attrition are: Department, Num_Promotions, Training_completed, salary.
+ - The total employees were 200, Left_Employee were 27, and Attrition rate was 13.5
+ - Logisitics Department have the hightest numbers of Attrition, Followed by Administration,and Quality.
+ - Warehouse,logistics are most affected
+ - Attrition vary by gender cos Male attrition more than female, and male divorcee left the most.
+ - Employees with low satisfaction are more likely to leave.
+ - Employees who leave have a shorter tenure on average than those who stay.
+	- Employees with lower salary grades are more likely to leave than those with higher salary grades.
+	- No, they aint likely to leave i.e number of project does not increase attrition.
+	- Number of Performance and Satisfaction have a positive relationship.
+	- Director of engineering and Marketing have the highest avg salary.
+	- There is a gender pay gap because people who makes their gender confidential earns more.
+	- High-performing employees being paid competitively.
+	- People that have Completed training had more attrition.
+ - Employees with more projects perform better. And
+ - Top 5 drivers of attrition are: Department, Num_Promotions, Training_completed, salary.
+
 ### Recomendations:
-### Limitation:
+ 1. Compensation Strategy Optimization
+ Look first at what people earn now. Where gaps show up - especially roles tough to fill - adjust wages so folks stay. Extra money now and then keeps important workers around. Fairness between male and female pay matters a lot. Unequal treatment fades when balances are set right. Trust grows quietly when fairness leads. Legal trouble often avoids teams that act early.
+
+2. Workload Balancing Burnout Control
+Most days do not need top speed. Slowing down opens space for regular progress instead of collapse. Structure shapes what happens next, especially when pressure builds. Even splits across tasks keep thinking clear much later than sprints ever could. Notice how calm patterns outlast frantic bursts nearly every time.
+
+3. Higher Engagement and Satisfaction
+Somebody has to take responsibility when teams lose spark. When leaders speak plainly, trust grows - just like it does during tough moments when they stay close instead of vanishing. Cash alone won’t fix silence; better options appear through clear next steps, recognition that fits the effort, room to grow sideways into unfamiliar work.
+
+4. Promotion and Career Growth Strategy
+Parked at the start, each role maps what comes after. Workers spot their follow-up move before they need it. Progress stays visible - no secrets, just clarity. If interest shifts, paths unfold within rather than outside. Shifting roles feels routine, almost natural. Just because you stay, does not mean you stop moving. Moving between teams brings new energy. Learning changes shape when roles change too. Different work wakes up curiosity once more. Progress twists like a river, yet always keeps going.
+
+5. Performance Management Adjustment
+What if progress looked different? Pay attention to what tasks actually do, instead of counting hours spent. When changes lead somewhere meaningful, people notice. Effort finds purpose once it connects to impact. Value sticks around when it comes from something real.
+
+6. Integrated Retention Actions
+Now comes the moment when fairer pay must walk hand in hand with roles reshaped around their real needs. Progress shows up clearer when learning unfolds step by step, woven together with moments that spark belonging. Speed counts - waiting too long risks quiet exits. Action taken early shapes what happens next. Before balance tips, presence makes the difference.
+
+### Limitations:
+1. Data Quality Dependency
+
+2. How good a manager is makes a difference. The mood of the office space adds its own weight. Hiring patterns beyond the company walls pull things one way or another
+
+3. Simplified Metrics
+
+Most days, moods, performance, even effort - these often collapse into a solitary figure. But real behavior weaves through countless shades, far too tangled for any lone score to capture.
+
+4. Potential Misclassification
+
+Out of work? Reasons differ, but true cause rarely fits a box. Upward moves become mere digits - equal on paper, unequal in life. Appearances shift when you look close. Hidden layers sit beneath what seems obvious.
+
+### Conclusion
+
+Heavy workloads hit harder when wages seem small. When promotions stop coming, morale takes a drop. As bonuses get smaller, so does motivation. Without knowing what comes next, effort grinds down.
+
+Right from week one, set a steady pace so everyone finds their footing. Pay well - yet balance workloads to keep energy steady. Progress becomes real when steps ahead are visible, not just mentioned. The lasting things take root at the beginning, then grow stronger with regular care.
+
+Most of what makes sense today comes from looking back; predictions may help clarify next steps. Today tells the story so far, yet tomorrow holds clues about direction. Patterns often appear before they explode - catching them early allows faster changes. Not merely checking results, but noticing shifts ahead alters how ideas take shape. Knowing adjusts responses; expecting steers design.
+
 ### Reference:
  1. Sql analysis by Baara
